@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		
 		<title>
@@ -95,8 +95,8 @@
 					<span>正在播放:</span>
 					<h1 id="tittext">感谢您使用Realme视频解析服务,正在播放！</h1>
 				</div>
-				<iframe id="palybox" src="http://api.baiyug.vip/index.php?url=http://v.youku.com/v_show/id_XMjcxMjY5NjM1Ng==.html" allowtransparency="true" frameborder="0" scrolling="no"allowfullscreen="true" allowtransparency="true"></iframe>
 				<iframe id="palybox" src="./files/jx2.html" allowtransparency="true" frameborder="0" scrolling="no"allowfullscreen="true" allowtransparency="true"></iframe>
+
 				<div class="url-box">
 					<div class="input-group">
 						<input type="text" id="url" class="form-control url-text" aria-label="Text input with segmented button dropdown" placeholder="请粘贴视频网址&gt;ㅂ&lt;ﾉ ☆" title="请复制你想要看的视频网址，粘贴到此处点击播放即可！">
@@ -422,10 +422,10 @@
 <!--<a href="https://github.com/yiwent/Vip/" target="_blank" style="color:#888;margin:0 10px;">-->
 
 <!--			本网页源代码-->
-<!--
+
 		</a>				</section>
 			</div>
-		&lt;!&ndash;友情链接结束&ndash;&gt;-->
+		<!--友情链接结束-->
 		<!--居中部分-->
 		<hr style="display: block;height: 1px;margin-bottom: 10px;background-color: #4f4f4f;    margin-top: 0px;margin-bottom: 20px;border: 0;">
 		<div class="container footer-tit">
@@ -509,7 +509,6 @@ function fuckyou() {
 	window.close(); //关闭当前窗口(防抽)
 	window.location = "about:blank"; //将当前窗口跳转置空白页
 }
-
 function ck() {
 	console.profile();
 	console.profileEnd();
@@ -521,7 +520,6 @@ function ck() {
 		return console.profiles.length > 0;
 	}
 }
-
 function hehe() {
 	if((window.console && (console.firebug || console.table && /firebug/i.test(console.table()))) || (typeof opera == 'object' && typeof opera.postError == 'function' && console.profile.length > 0)) {
 		fuckyou();
