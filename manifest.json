@@ -1,0 +1,14 @@
+{
+"name": "R视频",
+"short_name": "R视频",
+"icons": [{
+            "src": "./files/R.png",
+            "type": "image/png",
+             "sizes": "192x192"
+          }],
+"start_url": "/",
+"scope": "/",
+"display": "standalone",
+"background_color": "#181818",
+"theme_color": "#181818"
+}
