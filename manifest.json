@@ -6,7 +6,7 @@
             "type": "image/ico",
              "sizes": "192x192"
           }],
-"start_url": "https:www.baidu.com",
+"start_url": "/",
 "scope": "/",
 "display": "standalone",
 "background_color": "#181818",
