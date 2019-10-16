@@ -1,12 +1,12 @@
 {
-"name": "R视频",
+"name": "R视频-看你想看",
 "short_name": "R视频",
 "icons": [{
             "src": "./files/R.ico",
             "type": "image/ico",
              "sizes": "192x192"
           }],
-"start_url": "/",
+"start_url": "https:www.baidu.com",
 "scope": "/",
 "display": "standalone",
 "background_color": "#181818",
